@@ -1,5 +1,8 @@
 #include "mainwindow.h"
 #include <QApplication>
+#include "tourlist.h"
+#include "trip.h"
+#include <QDate>
 using namespace std;
 
 int main(int argc, char *argv[])
@@ -9,8 +12,9 @@ int main(int argc, char *argv[])
     MainWindow w;
     w.show();
     return a.exec();
-//    int valNum;
-//    cin >> valNum;
-//    SetNumber(valNum);
+
+
+
+
 
 }

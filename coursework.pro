@@ -12,11 +12,13 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     system.cpp \
+    tourlist.cpp \
     trip.cpp
 
 HEADERS += \
     mainwindow.h \
     system.h \
+    tourlist.h \
     trip.h
 
 FORMS += \

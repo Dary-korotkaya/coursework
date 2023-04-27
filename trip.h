@@ -8,12 +8,12 @@ class Trip
 {
 private:
     QString name;
-    QString direction;
-    double tripPrice;
-    int numDays;
-    QDateTime date;
-    int positionsLeft;
-    float rating;
+    QString direction;//poisk
+    double tripPrice;//sort
+    int numDays;//poisk . sort
+    QDateTime date;// sort
+    int positionsLeft;// sort
+    float rating;// sort
 
 
 

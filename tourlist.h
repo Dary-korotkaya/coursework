@@ -1,19 +1,19 @@
 #ifndef TOURLIST_H
 #define TOURLIST_H
-#include <QVector>
+#include <QList>
 #include "trip.h"
 
 class TourList
 {
 private:
-    QVector<Trip> tripList;
+    QList<Trip> tripList;
 
     void addTour(Trip newTrip);
 
     void deleteTour(Trip deleteTrip);
 
-    void search();
-    void sort();
+    void search(Trip tripList);
+    void sort(Trip tripList);
 
 public:
     TourList();

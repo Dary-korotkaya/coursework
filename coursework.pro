@@ -9,19 +9,23 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    admin.cpp \
     main.cpp \
     mainwindow.cpp \
     system.cpp \
     tourlist.cpp \
-    trip.cpp
+    trip.cpp \
+    types.cpp
 
 HEADERS += \
+    admin.h \
     mainwindow.h \
     system.h \
     tourlist.h \
     trip.h
 
 FORMS += \
+    admin.ui \
     mainwindow.ui
 
 # Default rules for deployment.
